@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dskuzniatsou/hw_sprint-2.git/static/css/main.fbaa9599.css",
+    "main.js": "/dskuzniatsou/hw_sprint-2.git/static/js/main.dba5d930.js",
+    "static/js/787.66cb4309.chunk.js": "/dskuzniatsou/hw_sprint-2.git/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/dskuzniatsou/hw_sprint-2.git/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/dskuzniatsou/hw_sprint-2.git/index.html",
+    "main.fbaa9599.css.map": "/dskuzniatsou/hw_sprint-2.git/static/css/main.fbaa9599.css.map",
+    "main.dba5d930.js.map": "/dskuzniatsou/hw_sprint-2.git/static/js/main.dba5d930.js.map",
+    "787.66cb4309.chunk.js.map": "/dskuzniatsou/hw_sprint-2.git/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbaa9599.css",
+    "static/js/main.dba5d930.js"
+  ]
+}
