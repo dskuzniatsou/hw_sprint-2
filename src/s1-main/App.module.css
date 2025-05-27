@@ -7,14 +7,28 @@
     width: 100%;
     height: 100vh;
     padding: 130px 70px 0 70px;
+    box-sizing: border-box;
 }
 
 .hw {
 
-
 }
-
+.hw::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #373535;
+    margin: 0 -70px 24px -70px;
+}
+.hw::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #373535;
+    margin: 32px -70px 0 -70px;
+}
 .hwTitle {
     font-size: 22px;
     padding-bottom: 10px;
+
 }
