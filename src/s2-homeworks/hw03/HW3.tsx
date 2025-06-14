@@ -29,6 +29,7 @@ export const pureAddUserCallback = (name: string, setUsers: Dispatch<SetStateAct
         name: name.trim()// need to fix
     }
     setUsers([...users, user])
+    // setUsers(users.concat(user))
 }
 
 const HW3 = () => {
