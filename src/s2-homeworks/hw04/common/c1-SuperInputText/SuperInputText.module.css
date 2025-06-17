@@ -2,19 +2,35 @@
 }
 
 .input {
+    width: 372px;
+    height: 36px;
+    border-radius: 4px;
+    padding: 5px 10px;
+
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap:5px;
 }
 
 .superInput {
+    background-color: white;
 }
 
 .errorInput {
+
+    border: 1px solid #CC1439;
 }
 
 .errorInput:focus {
+    border: 1px solid #f00; /* красная рамка */
+    background-color: #ffe6e6;
 }
 
 .error {
+    font-size: 12px;
+    display: block;
+    color:  #CC1439;
 }
