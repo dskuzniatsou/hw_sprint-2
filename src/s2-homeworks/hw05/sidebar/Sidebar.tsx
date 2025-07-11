@@ -4,6 +4,7 @@ import s from './Sidebar.module.css'
 import {PATH} from '../Pages'
 import closeIcon from './closeOutline.svg'
 
+
 type PropsType = {
     open: boolean
     handleClose: () => void
@@ -31,6 +32,8 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-pre-junior-link'}
                         to={PATH.PRE_JUNIOR}
                         onClick={handleClose}
+                        className={({isActive}) => isActive ? `${s.nav} ${s.active}` : s.nav}
+
                         // className={...} // делает студент
                     >
                         Pre-junior
@@ -39,6 +42,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-junior-link'}
                         to={PATH.JUNIOR}
                         onClick={handleClose}
+                        className={({isActive}) => isActive ? `${s.nav} ${s.active}` : s.nav}
                         // className={...} // делает студент
                     >
                         Junior
@@ -47,6 +51,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-junior-plus-link'}
                         to={PATH.JUNIOR_PLUS}
                         onClick={handleClose}
+                        className={({isActive}) => isActive ? `${s.nav} ${s.active}` : s.nav}
                         // className={...} // делает студент
                     >
                         Junior Plus
