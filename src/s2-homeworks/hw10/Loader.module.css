@@ -1,3 +1,42 @@
 .loader {
-    /*свг и/или анимация*/
+    width: 90px;
+    height: 90px;
+    border: 4px solid #ccc;
+    border-top-color: #512DE4;
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
+    display: block;
+    margin: 0 auto;
+}
+
+.loader circle {
+    stroke: #ff4cb1;
+    stroke-width: 4;
+    stroke-linecap: round;
+
+    animation:  dash 1.5s ease-in-out infinite;
+    fill: none;
+}
+
+/* Вращение всего SVG */
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Анимация движущейся дуги */
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35;
+    }
+    100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124;
+    }
 }
