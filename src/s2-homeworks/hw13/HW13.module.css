@@ -1,22 +1,52 @@
 .buttonsContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-bottom: 60px;
 }
 
 .responseContainer {
+    margin: 0 auto;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    gap: 90px;
+
 }
 
 .imageContainer {
+display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .image {
+    max-height: 200px;
+    max-width: 450px;
 }
 
 .textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
 }
 
 .code {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 12px;
+
 }
 
 .text {
+
 }
 .info {
 }
