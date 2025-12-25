@@ -1,9 +1,14 @@
 .pagination {
     display: flex;
+    margin-bottom: 36px;
+    gap:5px;
 }
 
 .text1 {
-
+    min-width: 32px;
+    height: 32px;
+    text-align: end;
+    vertical-align: middle;
 }
 
 .text2 {
