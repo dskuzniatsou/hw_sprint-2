@@ -2,15 +2,15 @@
     display: flex;
     margin-bottom: 36px;
     gap:5px;
+    align-items: center;
 }
 
 .text1 {
-    min-width: 32px;
-    height: 32px;
-    text-align: end;
-    vertical-align: middle;
+
+   font-size: 14px;
+
 }
 
 .text2 {
-
+    font-size: 14px;
 }
